@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a20">
+  <meta name="description" content="Porto 60: cozinha brasileira contemporânea, sabores regionais e bons encontros em Cabo Branco, João Pessoa. Reserve sua mesa.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Porto 60 — tradição à mesa, mar por perto">
+  <meta property="og:description" content="Uma experiência de sabor e acolhimento no Cabo Branco, em João Pessoa.">
+  <meta property="og:image" content="jardim-noturno.jpg">
+  <title>Porto 60 | Restaurante em João Pessoa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Porto 60 Restaurante",
+    "servesCuisine": ["Brasileira", "Contemporânea", "Regional nordestina"],
+    "priceRange": "R$ 80–200",
+    "telephone": "+55 83 99123-5956",
+    "sameAs": ["https://www.instagram.com/porto60restaurante/"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Rua Antônio Carlos Araújo, 60",
+      "addressLocality": "João Pessoa",
+      "addressRegion": "PB",
+      "postalCode": "58045-250",
+      "addressCountry": "BR"
+    },
+    "openingHoursSpecification": [
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"12:00","closes":"15:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday"],"opens":"19:00","closes":"23:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Friday","Saturday"],"opens":"19:00","closes":"23:59"}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="splash" id="splash" aria-label="Porto 60">
+    <div class="splash-mark"><span class="brand-symbol" aria-hidden="true">P<span>60</span></span><span class="brand-name">PORTO <b>60</b></span><span class="splash-line"></span><span class="splash-caption">João Pessoa · Paraíba</span></div>
+  </div>
+
+  <div class="video-backdrop" aria-hidden="true">
+    <img class="video-poster" src="hero-poster.jpg" alt="">
+    <video class="site-video" id="site-video" autoplay muted loop playsinline webkit-playsinline preload="auto" poster="hero-poster.jpg" aria-hidden="true">
+      <source src="porto60-fundo.mp4" type="video/mp4">
+    </video>
+    <div class="video-shade"></div>
+  </div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#inicio" aria-label="Porto 60 — início"><span class="brand-symbol" aria-hidden="true">P<span>60</span></span><span class="brand-name">PORTO <b>60</b><small>RESTAURANTE</small></span></a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+      <a href="#inicio" class="nav-link active">Início</a><a href="#cardapio" class="nav-link">Cardápio</a><a href="#sobre" class="nav-link">Nossa casa</a><a href="#galeria" class="nav-link">Galeria</a><a href="#contato" class="nav-link">Contato</a>
+    </nav>
+    <a class="header-cta" href="#reservas">Reservar <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero page-section" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-content content-wrap">
+        <p class="eyebrow"><span class="eyebrow-rule"></span> CABO BRANCO · JOÃO PESSOA</p>
+        <h1 id="hero-title">Onde a gastronomia<br>tem encontro marcado<br><em>com a tradição.</em></h1>
+        <p class="hero-copy">Sabores que contam histórias. Um lugar para chegar sem pressa e ficar à vontade.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#cardapio">Conheça o cardápio <span aria-hidden="true">↓</span></a><a class="button button-outline" href="https://wa.me/5583991235956?text=Ol%C3%A1%2C%20quero%20reservar%20uma%20mesa%20no%20Porto%2060." target="_blank" rel="noopener">Reservar pelo WhatsApp <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-meta"><span class="open-pill"><i class="status-dot" id="status-dot"></i><span id="open-status">Consultando horário</span></span><span class="hero-meta-divider"></span><span>Uma mesa com sabor de Paraíba</span></div>
+      </div>
+      <a class="scroll-cue" href="#sobre" aria-label="Role para conhecer o Porto 60"><span></span> DESCUBRA</a>
+      <div class="hero-index">P60 <span>·</span> 01</div>
+    </section>
+
+    <section class="section about-section page-section" id="sobre" aria-labelledby="about-title">
+      <div class="content-wrap about-grid">
+        <div class="about-image reveal"><img src="jardim-noturno.jpg" alt="Jardim iluminado e mesas ao ar livre do Porto 60" loading="lazy"><span class="image-note">UM REFÚGIO NO CABO BRANCO</span></div>
+        <div class="about-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-rule"></span> A CASA PORTO 60</p>
+          <h2 id="about-title">Um convite para<br><em>sentir e compartilhar.</em></h2>
+          <p class="body-copy">No Porto 60, a tradição brasileira encontra um olhar contemporâneo. Da primeira conversa à última taça, cada detalhe é pensado para transformar a refeição em um bom encontro.</p>
+          <p class="body-copy">Em Cabo Branco, João Pessoa, nossa casa recebe você em um ambiente acolhedor, cercado de verde e sabores feitos para ficar na memória.</p>
+          <a class="text-link" href="#galeria">Conheça nossa casa <span aria-hidden="true">↗</span></a>
+          <div class="features"><div class="feature"><span class="feature-icon" aria-hidden="true">✳</span><span>Jardim ao ar livre</span></div><div class="feature"><span class="feature-icon" aria-hidden="true">◌</span><span>Sala privativa</span></div><div class="feature"><span class="feature-icon" aria-hidden="true">✦</span><span>Cocktails autorais</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu-section page-section" id="cardapio" aria-labelledby="menu-title">
+      <div class="content-wrap">
+        <div class="section-heading reveal"><div><p class="eyebrow"><span class="eyebrow-rule"></span> FEITO PARA COMPARTILHAR</p><h2 id="menu-title">Sabores que <em>reúnem.</em></h2></div><p class="heading-aside">Uma cozinha brasileira contemporânea, com raízes regionais e ingredientes escolhidos com cuidado.</p></div>
+        <div class="menu-tabs reveal" role="tablist" aria-label="Categorias do cardápio"><button class="menu-tab active" type="button" role="tab" aria-selected="true" data-filter="todos">Todos</button><button class="menu-tab" type="button" role="tab" aria-selected="false" data-filter="entradas">Entradas</button><button class="menu-tab" type="button" role="tab" aria-selected="false" data-filter="principais">Pratos principais</button><button class="menu-tab" type="button" role="tab" aria-selected="false" data-filter="bebidas">Bebidas</button></div>
+        <div class="menu-grid" id="menu-grid">
+          <article class="menu-card reveal" data-category="principais"><div class="menu-photo"><img src="polvo-provencal.jpg" alt="Polvo à Provençal servido com arroz cremoso" loading="lazy"><span class="menu-tag">DA CASA</span></div><div class="menu-card-copy"><div class="menu-title-row"><h3>Polvo à Provençal</h3><span class="menu-price">Consulte</span></div><p>Polvo grelhado, arroz cremoso e sabores marcantes para saborear sem pressa.</p></div></article>
+          <article class="menu-card reveal" data-category="entradas"><div class="menu-photo"><img src="experiencia-porto.jpg" alt="Seleção de entradas para compartilhar à mesa" loading="lazy"><span class="menu-tag">PARA COMPARTILHAR</span></div><div class="menu-card-copy"><div class="menu-title-row"><h3>Sabores do Porto</h3><span class="menu-price">Consulte</span></div><p>Uma seleção da cozinha da casa para começar a experiência em boa companhia.</p></div></article>
+          <article class="menu-card reveal" data-category="entradas"><div class="menu-photo"><img src="salada-camarao.jpg" alt="Salada fresca com camarões grelhados e frutas" loading="lazy"><span class="menu-tag">LEVE &amp; FRESCO</span></div><div class="menu-card-copy"><div class="menu-title-row"><h3>Leveza &amp; Sabor</h3><span class="menu-price">Consulte</span></div><p>Folhas frescas, camarões e contrastes delicados em uma combinação vibrante.</p></div></article>
+          <article class="menu-card reveal" data-category="bebidas"><div class="menu-photo menu-drink"><img src="polvo-provencal.jpg" alt="Cocktail servido à mesa junto ao prato da casa" loading="lazy"><span class="menu-tag">NOITE PORTO 60</span></div><div class="menu-card-copy"><div class="menu-title-row"><h3>Cocktails da casa</h3><span class="menu-price">Consulte</span></div><p>Drinks preparados para brindar aos bons encontros. Consulte a carta de bebidas.</p></div></article>
+        </div>
+        <p class="menu-footnote">Cardápio e valores podem variar. Consulte a equipe para conhecer as opções disponíveis no dia.</p>
+        <div class="menu-cta"><a class="button button-primary" href="https://wa.me/5583991235956?text=Ol%C3%A1%2C%20gostaria%20de%20conhecer%20o%20card%C3%A1pio%20do%20Porto%2060." target="_blank" rel="noopener">Peça o cardápio completo <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="feature-section page-section" aria-label="Destaque da cozinha">
+      <div class="feature-photo"><img src="polvo-provencal.jpg" alt="Detalhe do polvo à Provençal preparado no Porto 60" loading="lazy"></div><div class="feature-copy"><p class="eyebrow"><span class="eyebrow-rule"></span> UM CLÁSSICO DA CASA</p><h2>O prazer está<br>em cada <em>detalhe.</em></h2><p>Ingredientes selecionados, preparo cuidadoso e aquele sabor que merece ser apreciado até a última garfada.</p><a class="text-link" href="#cardapio">Explore o cardápio <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="section gallery-section page-section" id="galeria" aria-labelledby="gallery-title">
+      <div class="content-wrap"><div class="section-heading reveal"><div><p class="eyebrow"><span class="eyebrow-rule"></span> POR DENTRO DA EXPERIÊNCIA</p><h2 id="gallery-title">Um lugar para <em>ficar.</em></h2></div><a class="text-link gallery-instagram" href="https://www.instagram.com/porto60restaurante/" target="_blank" rel="noopener">@porto60restaurante <span aria-hidden="true">↗</span></a></div>
+        <div class="gallery-grid"><button class="gallery-item gallery-tall reveal" type="button" data-full="img/jardim-noturno.jpg" aria-label="Ampliar foto do jardim do Porto 60"><img src="jardim-noturno.jpg" alt="Jardim iluminado do Porto 60 à noite" loading="lazy"><span class="gallery-plus" aria-hidden="true">＋</span></button><button class="gallery-item reveal" type="button" data-full="img/sala-privativa.jpg" aria-label="Ampliar foto da sala privativa"><img src="sala-privativa.jpg" alt="Sala privativa preparada para receber os clientes" loading="lazy"><span class="gallery-plus" aria-hidden="true">＋</span></button><button class="gallery-item reveal" type="button" data-full="img/salada-camarao.jpg" aria-label="Ampliar foto da salada de camarão"><img src="salada-camarao.jpg" alt="Salada com camarões, folhas e frutas" loading="lazy"><span class="gallery-plus" aria-hidden="true">＋</span></button><button class="gallery-item reveal" type="button" data-full="img/experiencia-porto.jpg" aria-label="Ampliar foto das entradas"><img src="experiencia-porto.jpg" alt="Entradas servidas em pratos artesanais" loading="lazy"><span class="gallery-plus" aria-hidden="true">＋</span></button><button class="gallery-item reveal" type="button" data-full="img/polvo-provencal.jpg" aria-label="Ampliar foto do polvo à Provençal"><img src="polvo-provencal.jpg" alt="Polvo à Provençal com arroz cremoso" loading="lazy"><span class="gallery-plus" aria-hidden="true">＋</span></button></div>
+      </div>
+    </section>
+
+    <section class="reservation-section page-section" id="reservas" aria-labelledby="reservation-title">
+      <div class="reservation-image"><img src="sala-privativa.jpg" alt="Mesa posta na sala privativa do Porto 60" loading="lazy"></div><div class="reservation-panel"><div class="reservation-copy"><p class="eyebrow"><span class="eyebrow-rule"></span> SUA PRÓXIMA BOA MEMÓRIA</p><h2 id="reservation-title">Tem lugar<br>para <em>você.</em></h2><p>Escolha o melhor momento. Nossa equipe confirma sua reserva pelo WhatsApp.</p>
+        <form id="reservation-form" class="reservation-form">
+          <label>Seu nome<input name="nome" type="text" autocomplete="name" placeholder="Como podemos chamar você?" required></label>
+          <label>Telefone<input name="telefone" type="tel" autocomplete="tel" placeholder="(83) 9 0000-0000" required></label>
+          <div class="form-row"><label>Data<input name="data" type="date" required></label><label>Horário<select name="horario" required><option value="">Selecione</option><option>12:00</option><option>12:30</option><option>13:00</option><option>13:30</option><option>14:00</option><option>19:00</option><option>19:30</option><option>20:00</option><option>20:30</option><option>21:00</option><option>21:30</option><option>22:00</option></select></label></div>
+          <label>Número de pessoas<select name="pessoas" required><option value="">Selecione</option><option>1 pessoa</option><option>2 pessoas</option><option>3 pessoas</option><option>4 pessoas</option><option>5 pessoas</option><option>6 pessoas</option><option>7 ou mais pessoas</option></select></label>
+          <button class="button button-primary form-submit" type="submit">Solicitar reserva <span aria-hidden="true">↗</span></button><p class="form-note">A reserva será solicitada pelo WhatsApp e confirmada pela equipe.</p>
+        </form>
+      </div></div>
+    </section>
+
+    <section class="section contact-section page-section" id="contato" aria-labelledby="contact-title">
+      <div class="content-wrap"><div class="section-heading reveal"><div><p class="eyebrow"><span class="eyebrow-rule"></span> VAMOS NOS ENCONTRAR?</p><h2 id="contact-title">A casa está <em>perto.</em></h2></div><p class="heading-aside">Na Rua Antônio Carlos Araújo, em Cabo Branco. Esperamos por você.</p></div>
+        <div class="contact-grid"><div class="contact-details reveal"><div class="contact-item"><span class="contact-label">ENDEREÇO</span><p>R. Antônio Carlos Araújo, 60<br>Cabo Branco · João Pessoa — PB<br>58045-250</p><a class="text-link" href="https://maps.google.com/?q=Porto+60+Restaurante+Rua+Ant%C3%B4nio+Carlos+Ara%C3%BAjo+60+Jo%C3%A3o+Pessoa+PB" target="_blank" rel="noopener">Como chegar <span aria-hidden="true">↗</span></a></div><div class="contact-item"><span class="contact-label">HORÁRIO DE FUNCIONAMENTO</span><p>Terça a domingo · 12h às 15h<br>Terça a quinta · 19h às 23h<br>Sexta e sábado · 19h às 00h<br><span class="muted">Segunda-feira: fechado</span></p></div><div class="contact-item"><span class="contact-label">FALE COM A GENTE</span><p><a href="tel:+5583991235956">(83) 99123-5956</a><br><a href="https://www.instagram.com/porto60restaurante/" target="_blank" rel="noopener">@porto60restaurante</a></p></div></div><div class="map-frame reveal"><iframe title="Mapa de localização do Porto 60 em Cabo Branco, João Pessoa" src="https://maps.google.com/maps?q=Porto%2060%20Restaurante%2C%20Rua%20Ant%C3%B4nio%20Carlos%20Ara%C3%BAjo%2C%2060%2C%20Jo%C3%A3o%20Pessoa&t=&z=15&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="content-wrap footer-inner"><a class="brand footer-brand" href="#inicio" aria-label="Porto 60 — voltar ao início"><span class="brand-symbol" aria-hidden="true">P<span>60</span></span><span class="brand-name">PORTO <b>60</b><small>RESTAURANTE</small></span></a><p>Onde a gastronomia tem encontro marcado com a tradição.</p><div class="footer-links"><a href="#cardapio">Cardápio</a><a href="#sobre">Nossa casa</a><a href="#contato">Contato</a><a href="https://www.instagram.com/porto60restaurante/" target="_blank" rel="noopener">Instagram ↗</a></div><span class="copyright">© <span id="year"></span> Porto 60 Restaurante · João Pessoa, PB</span></div></footer>
+
+  <a class="whatsapp-float" href="https://wa.me/5583991235956?text=Ol%C3%A1%2C%20quero%20falar%20com%20o%20Porto%2060." target="_blank" rel="noopener" aria-label="Fale com o Porto 60 pelo WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.8 11.8 0 0 0 12.1 0C5.5 0 .1 5.4.1 12c0 2.1.6 4.2 1.6 6L0 24l6.2-1.6a12 12 0 0 0 5.9 1.5h.1c6.6 0 12-5.4 12-12 0-3.2-1.3-6.2-3.7-8.4ZM12.1 21.8c-1.8 0-3.6-.5-5.1-1.4l-.4-.2-3.7 1 1-3.6-.2-.4a9.8 9.8 0 0 1-1.5-5.2c0-5.4 4.4-9.8 9.9-9.8 2.6 0 5.1 1 7 2.9a9.7 9.7 0 0 1 2.9 7c0 5.4-4.5 9.7-9.9 9.7Zm5.4-7.3c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.2-.2.3-.8.9-1 .1-.2.2-.4.2-.7.1a8.1 8.1 0 0 1-2.4-1.5 9 9 0 0 1-1.7-2.1c-.2-.3 0-.5.1-.6l.5-.6.2-.5-.1-.5c-.1-.1-.7-1.6-.9-2.2-.2-.5-.5-.4-.7-.4h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.1-1.4-.1-.1-.3-.2-.6-.4Z"/></svg></a>
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Voltar ao topo">↑</button>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagem ampliada" aria-hidden="true"><button class="lightbox-close" type="button" aria-label="Fechar imagem">×</button><img src="" alt=""></div>
+  <script src="script.js"></script>
+</body>
+</html>
